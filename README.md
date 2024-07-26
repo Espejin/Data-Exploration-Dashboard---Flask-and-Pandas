@@ -72,7 +72,7 @@ About the analyisis of data. We are going to usea a Flask app as a dashboard. Th
 - Some libraries need special requirements to work. (matplotlib.use('Agg'))
 
 
-Libraries:
+# Libraries:
 
 - Pandas.
 - Numpy.
@@ -80,3 +80,8 @@ Libraries:
 - Flask.
 - base64.
 - IO.
+
+# Repository Data:
+- Flask App
+- DBB SQLite
+- Python Jupyter Notebook of Data Transformation
