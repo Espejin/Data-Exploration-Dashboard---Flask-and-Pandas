@@ -47,7 +47,7 @@ Principal Databases used.
 
 # Pipeline:
 
-![alt text](relative%20path/to/img.jpg](https://github.dev/Espejin/Data-Exploration-Dashboard---Flask-and-Pandas/blob/main/app/static/images/pipeline.png?raw=true "Title")
+![alt text](https://github.com/Espejin/Data-Exploration-Dashboard---Flask-and-Pandas/blob/main/app/static/images/pipeline.png?raw=true)
 
 # Data Processing Considerations:
 
