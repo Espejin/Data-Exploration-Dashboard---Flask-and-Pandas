@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT - Process</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  </head>
+  <body>
+    <header class="header">
+      <a href="/home" class="logo">BT</a>
+      <nav class="navbar">
+        <a href="/home">Introduction</a>
+        <a href="#" class="active">Process</a>
+        <a href="/">Dashboard</a>
+      </nav>
+    </header>
+
+  
+    <div class="informe_general">
+    
+        <h3>Datasource: </h3>
+        
+        <br></br>
+
+        <p>
+            The basis was extracted from the annual survey carried 
+            out among participating developers of the Stack Overflow 
+            website.
+
+            <br></br>
+
+            This survey aims to analyze users, in order to get an 
+            idea of ​​the current technology field. The database is 
+            loaded by the SO team, making all information anonymous 
+            with respect to the user who generated the information. 
+            This survey is available in the following link.
+
+            <br></br>
+
+        </p>
+
+        <a href="https://survey.stackoverflow.co" target="_blank">https://survey.stackoverflow.co</a>
+
+
+        <br></br>
+
+        <h3>Dataset features: </h3>
+
+        <br></br>
+
+        <p>
+            The dataset provided by Stack Overflow Team has
+            the following characteristics:
+
+            <ul>
+                <li>CSV Format.</li>
+                <li>89,183 rows.</li>
+                <li>82 columns.</li>
+                <li>Irregular Datatypes - Some categorical fields.</li>
+                <li>The mayority of fields wasn't mandatory.</li>
+                <li>A lot of null information.</li>
+                <li>Survey Data!</li>
+            </ul>
+
+            <br></br>
+            <p>With all this in mind, what type of information does the data set contain?</p>
+
+            <ul>
+                <li>Salary.</li>
+                <li>Developer Type.</li>
+                <li>Industry.</li>
+                <li>Age.</li>
+                <li>Work Experience.</li>
+                <li>Professional Coding Experience.</li>
+                <li>Time Coding</li>
+                <li>Principal Web Frameworks used.</li>
+                <li>Principal Databases used.</li>
+            </ul>
+        </p>
+
+        <br></br>
+
+        <h3>Objectives: </h3>
+
+        <br></br>
+
+        <ul>
+            <li>Obtain information about the most relevant current technologies.</li>
+            <li>Hard Skills Analysis for programmers and IT personal.</li>
+            <li>Obtain information about development fields and remunerations.</li>
+            <li>Give information to new IT members about the actual environment.</li>
+        </ul>
+
+        <br></br>
+
+        <h3>Pipeline: </h3>
+
+        <br></br>
+
+        <div class="div_pipe">
+            <img src="{{ url_for('static', filename='images/pipeline.png') }}" class="pipe_image"/>
+        </div>
+
+        <br></br>
+        
+        <h3>Data Processing Considerations: </h3>
+
+        <br></br>
+
+        <p>Cause of the nature of the data. It needed a lot of work to give a good database to work:</p>
+
+        <br></br>
+
+        <ul>
+            <li>Delete of NULL values, if the data is useless.</li>
+            <li>Field Data Regularization. (Dev Type, Org Size, YearsCodePro, WorkExp, ConvertedCompYearly)</li>
+            <li>Second Delete of data.</li>
+        </ul>
+
+        <br></br>
+
+        <h3>Data Storage Considerations: </h3>
+
+        <br></br>
+
+        <ul>
+            <li>General DB Normalization.</li>
+            <li>Only not NULL info it was inserted to the database.</li>
+        </ul>
+
+        <br></br>
+
+        <div class="div_pipe">
+            <img src="{{ url_for('static', filename='images/db_schema.png') }}" class="pipe_image"/>
+        </div>
+
+        <br></br>
+
+        <h3>Data Analyitics Considerations: </h3>
+
+        <br></br>
+
+        <p>
+            About the analyisis of data. We are going to usea a Flask app as a dashboard. This as such has its considerations:
+
+            <ul>
+                <li>Flask is a full Python web framework.</li>
+                <li>It is different from traditional developments.</li>
+                <li>Some libraries need special requirements to work. (matplotlib.use('Agg'))</li>
+            </ul>
+
+        </p>
+
+        <br></br>
+
+        <h3>Librerías Utilizadas: </h3>
+
+        <br></br>
+
+        <ul>
+            <li>Pandas.</li>
+            <li>Numpy.</li>
+            <li>Seaborn.</li>
+            <li>Flask.</li>
+            <li>base64.</li>
+            <li>IO.</li>
+        </ul>
+
+
+
+    </div>
+
+  </body>
+</html>
