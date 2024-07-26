@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.home_exp_edu {
+    margin-top: 3%;
+}
+
+.logo {
+    font-size: 1.5vw;
+    color: #443c6c ;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #081b29;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.navbar a {
+    font-size: 1.6vw;
+    color:  #443c6c ;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 1.8vw;
+    transition: .3s;
+}
+
+.navbar a:hover,  .navbar a.active {
+    color:#00abf0;
+}
+
+
+.td_general {
+    /*border: 1px solid white;*/
+    width: 50%;
+    height: 7vw;
+}
+
+.td_intermedia {
+    /*border: 1px solid white;*/
+    width: 20%;
+    height: 2vw;
+}
+
+.div_img_general {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.icono_ed_exp {
+    width: 80%;
+    height: auto;
+}
+
+
+ .form-container {
+    margin-top: 6%;
+    margin-left: 5%;
+  }
+  .form-container select {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  .form-container button {
+    padding: 5px 10px;
+  }
+
+  .result {
+    margin: 20px; /* Espacio alrededor del div */
+    padding: 15px; /* Espacio interno del div */
+    border: 1px solid #ddd; /* Borde del div */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #333; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 20px; /* Adjust the value as needed */
+    margin-right: 20px; /* Adjust the value as needed */
+}
+
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width:  60%;
+}
+
+.home-image {
+    margin-left: 10%;
+    display: inline-flex;
+    justify-content: center;
+    width: 20vw;
+    height: 30vw;
+    
+}
+
+.image {
+    object-fit: contain;
+}
+
+.home-content h1 {
+    font-size: 3.7vw;
+    font-weight: 100%;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 2.7vw;
+    font-weight: 100%;
+    color: #4c7c94 ;
+}
+
+.home-content p {
+    font-size: 2.5vw;
+    margin: 3% 0 8%;
+}
+
+.informe_general{
+    margin-top: 10%;
+    margin-left:12%;
+    margin-bottom: 10%;
+}
+
+.informe_general h3 {
+    font-size: 2.7vw;
+    font-weight: 100%;
+    color: #4c7c94 ;
+}
+
+.informe_general p
+{
+    margin-top:1%;
+    font-size: 1.5vw;
+    margin-right:20%;
+    text-align: justify;
+}
+
+.informe_general a
+{
+    margin-top:3%;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-left: 28%;
+}
+
+.informe_general ul 
+{
+    margin-left: 3%;
+    padding-top: 1%;
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
+
+.div_pipe {
+    margin-left: 17%;
+    display: inline-flex;
+    justify-content: center;
+    width: 40vw;
+    height: 30vw;
+    
+}
+
+.image {
+    object-fit: contain;
+}
+
+
+
