@@ -88,3 +88,16 @@ About the analyisis of data. We are going to usea a Flask app as a dashboard. Th
 - Flask App
 - DBB SQLite
 - Python Jupyter Notebook of Data Transformation
+
+# Dashboard Screenshots:
+You can watch some screenshots about the web Dashboard described:
+
+![alt text](https://github.com/Espejin/Data-Exploration-Dashboard---Flask-and-Pandas/blob/main/app/static/images/DSHB_1.png?raw=true)
+
+![alt text](https://github.com/Espejin/Data-Exploration-Dashboard---Flask-and-Pandas/blob/main/app/static/images/DSHB_2.png?raw=true)
+
+![alt text](https://github.com/Espejin/Data-Exploration-Dashboard---Flask-and-Pandas/blob/main/app/static/images/DSHB_3.png?raw=true)
+
+![alt text](https://github.com/Espejin/Data-Exploration-Dashboard---Flask-and-Pandas/blob/main/app/static/images/DSHB_4.png?raw=true)
+
+![alt text](https://github.com/Espejin/Data-Exploration-Dashboard---Flask-and-Pandas/blob/main/app/static/images/DSHB_5.png?raw=true)
