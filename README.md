@@ -64,7 +64,7 @@ Cause of the nature of the data. It needed a lot of work to give a good database
 - General DB Normalization.
 - Only not NULL info it was inserted to the database.
 
-![alt text](https://github.com/Espejin/Data-Exploration-Dashboard---Flask-and-Pandas/blob/main/app/static/images/pipeline.png?raw=true](https://github.com/Espejin/Data-Exploration-Dashboard---Flask-and-Pandas/blob/main/app/static/images/db_schema.png?raw=true)
+![alt text](https://github.com/Espejin/Data-Exploration-Dashboard---Flask-and-Pandas/blob/main/app/static/images/db_schema.png?raw=true)
 
 #Data Analyitics Considerations:
 
