@@ -1,4 +1,4 @@
-# Data-Exploration-Dashboard - Flask-and-Pandas
+# Data-Exploration-Dashboard - Flask, Pandas and SQLite
 Data Exploration Dashboard - Flask and Pandas
 
 # Datasource:
